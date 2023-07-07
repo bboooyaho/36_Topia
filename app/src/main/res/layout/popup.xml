@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 팝업 창 -->
+    <LinearLayout
+        android:id="@+id/popupLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/popup_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="남은 시간"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/popup_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="분 단위로 입력" />
+
+
+        <Button
+            android:id="@+id/popup_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="업데이트" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

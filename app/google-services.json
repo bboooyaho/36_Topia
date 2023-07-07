@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "389845380810",
+    "project_id": "topia-c178f",
+    "storage_bucket": "topia-c178f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389845380810:android:d9ca6e05c62015b914ce33",
+        "android_client_info": {
+          "package_name": "com.example.a36topia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuEWBnhXL6DPzlSQ8VOwtotCxAquKzkww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

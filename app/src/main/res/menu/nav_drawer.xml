@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Peniel"
+            android:title="브니엘관" />
+        <item
+            android:id="@+id/nav_Salem"
+            android:title="살렘관" />
+        <item
+            android:id="@+id/nav_Zion"
+            android:title="시온관" />
+        <item
+            android:id="@+id/nav_Eden"
+            android:title="에덴관" />
+    </group>
+</menu>
